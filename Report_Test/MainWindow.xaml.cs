@@ -28,6 +28,7 @@ namespace Report_Test
                 this._reportViewer.LocalReport.LoadSubreportDefinition("content", type.Assembly.GetManifestResourceStream($"{type.Namespace}.SubReport.rdlc"));
                 this._reportViewer.LocalReport.SubreportProcessing += new SubreportProcessingEventHandler(SubReportHandler);
 
+                _reportViewer.LocalReport.ShowDetailedSubreportMessages = true;
                 _reportViewer.RefreshReport(); //it calls SubReportHandler
                 _isReportViewerLoaded = true;
             }

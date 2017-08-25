@@ -54,7 +54,7 @@
             <Border>
               <Style>None</Style>
             </Border>
-            <BackgroundColor>LightSalmon</BackgroundColor>
+            <BackgroundColor>DimGray</BackgroundColor>
           </Style>
         </Rectangle>
         <Textbox Name="Textbox2">
@@ -131,7 +131,7 @@ Main and SubReport</Value>
         <Border>
           <Style>None</Style>
         </Border>
-        <BackgroundColor>PeachPuff</BackgroundColor>
+        <BackgroundColor>WhiteSmoke</BackgroundColor>
       </Style>
     </PageHeader>
     <PageFooter>
@@ -244,7 +244,7 @@ Main and SubReport</Value>
         <Border>
           <Style>None</Style>
         </Border>
-        <BackgroundColor>PeachPuff</BackgroundColor>
+        <BackgroundColor>WhiteSmoke</BackgroundColor>
       </Style>
     </PageFooter>
     <LeftMargin>1in</LeftMargin>
